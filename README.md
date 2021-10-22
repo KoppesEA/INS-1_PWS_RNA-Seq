@@ -14,4 +14,8 @@ Unzip the genome fasta file and then append the custom transgne sequences from `
      gunzip -c Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa.gz > Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa
      cat Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa hINStg.fa mINS2tg.fa > Rattus_norvegicus.Rnor_6.0.dna.custom.fa
      gunzip -c Rattus_norvegicus.Rnor_6.0.104.gtf.gz > Rattus_norvegicus.Rnor_6.0.104.gtf
-     cat Rattus_norvegicus.Rnor_6.0.104.gtf CustomAnnot.gtf >
+     cat Rattus_norvegicus.Rnor_6.0.104.gtf CustomAnnot.gtf > Rattus_norvegicus.Rnor_6.0.98.custom.gtf
+     
+Generate STAR genomic indexes using `genomeGenerate` command from STAR ver 2.7.0e with options specified in batch script `STARgenomeGen_custom.sh`  
+
+Generate RSEM-STAR genomic indexes using `rsem-prepare-reference` command with RSEM ver 1.3.1 with options specified in batch script `RSEM_RnorV98customprep.sh`
