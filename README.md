@@ -16,6 +16,10 @@ Unzip the genome fasta file and then append the custom transgne sequences from `
      gunzip -c Rattus_norvegicus.Rnor_6.0.104.gtf.gz > Rattus_norvegicus.Rnor_6.0.104.gtf
      cat Rattus_norvegicus.Rnor_6.0.104.gtf CustomAnnot.gtf > Rattus_norvegicus.Rnor_6.0.98.custom.gtf
      
-Generate STAR genomic indexes using `genomeGenerate` command from STAR ver 2.7.0e with options specified in batch script `STARgenomeGen_custom.sh`  
+Generate STAR genomic indexes from custom rat genome and annotation using `genomeGenerate` command from STAR version 2.7.0e with options specified in batch script `STARgenomeGen_custom.sh`  
 
-Generate RSEM-STAR genomic indexes using `rsem-prepare-reference` command with RSEM ver 1.3.1 with options specified in batch script `RSEM_RnorV98customprep.sh`
+Generate RSEM-STAR genomic indexes from custom rat genome and annotation using `rsem-prepare-reference` command with RSEM version 1.3.1 with options specified in batch script `RSEM_RnorV98customprep.sh`  
+
+Generate Bowtie2 indexes from Rnor6.0.99 (without custom annotation) using the `bowtie2-build` command with bowtie2 version 2.3.4.2 with options specified in batch script `Bowtie_Rnor6v99_build.sh`
+
+
