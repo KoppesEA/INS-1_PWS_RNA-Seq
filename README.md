@@ -1,5 +1,6 @@
 # INS-1_PWS_PNAS
 Markdown on the useage of uploaded bash scripts for RNA-Seq analysis associated with Koppes et al. 2021 for analysis of total- and small- RNA-Seq of control and PWS INS-1 cells.
+*Directories and version numbers may need to adjusted to run as needed*
 
 ## Part I: Custom Genome Generation
 Download Rnor6 top level genome sequence and gene set annotation from Ensembl (https://useast.ensembl.org/info/data/ftp/index.html)  
@@ -23,7 +24,9 @@ Generate RSEM-STAR genomic indexes from custom rat genome and annotation using `
 Generate Bowtie2 indexes from Rnor6.0.99 (without custom annotation) using the `bowtie2-build` command with bowtie2 version 2.3.4.2 with options specified in batch script `Bowtie_Rnor6v99_build.sh`
 
 ## Part II: Identification of differentially expressed genes  in total RNA using STAR alignment with gene feature counts by HT-Seq and comparison with DEseq2
+RNA-seq QC check using `FastQC` version 0.11.5 and illumina NextSeq adapters trimmed using `TrimGalore` version 0.4.5 as specified in `Total_RNA_QCandTRIM.sh` with the sample list file `expList_2017.txt`  
 
+Splice-aware refrence-based alignment using STAR version 2.7.0e was implemented with options specified in
 
 
 
