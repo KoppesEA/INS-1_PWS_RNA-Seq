@@ -36,7 +36,9 @@ RNA-seq QC check using `FastQC` version 0.11.5 and illumina NextSeq adapters tri
 Splice-aware refrence-based alignment using STAR version 2.7.0e was implemented with options specified in `STAR_RnorCustom_mapping.sh` combined with the custom annotation genomic indexes generated in Part I.
 
 Gene-level feature counts were made with HTseq version 0.11.2 using parameters specified in `HTSeq_Rnorcustom_v98.sh`.  
-*Note that the settings* `--mode union` *and* `--nonqunique all` *were required to accurately quantify the overlapping bicistronic Snurf-Snrpn transcript and the multicopy Snord115 and Snord116 genes. 
+*Note that the settings* `--mode union` *and* `--nonqunique all` *were required to accurately quantify the overlapping bicistronic Snurf-Snrpn transcript and the multicopy Snord115 and Snord116 genes.*  
+
+The DESeq2 R package was used for differential expression anlaysis as implemented in R script. Significance cutoffs of padj<0.10 lenient or padj<0.05 stringent were used in the identification of differentiall expressed genes to investigate further.
 
 ## Part III: Alternate identification of differentially expressed genes in total RNA using STAR alignment with RSEM and comparison with DEseq2
 
