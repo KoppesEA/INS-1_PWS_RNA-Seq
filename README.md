@@ -3,7 +3,7 @@ Markdown on the useage of uploaded bash scripts for RNA-Seq analysis associated 
 
 Fastq files associated with this study can be found via GEO  
 GSExxxx  (Total RNA)  
-and
+and  
 GSExxx  (small RNA)
 
 
