@@ -1,0 +1,8 @@
+../Nicholls_Total_RNA_2017/Nicholls_20170906_Ribo-zero_gold/Control_1_S1
+../Nicholls_Total_RNA_2017/Nicholls_20170906_Ribo-zero_gold/Control_2_S2 
+../Nicholls_Total_RNA_2017/Nicholls_20170906_Ribo-zero_gold/Control_3_S3
+../Nicholls_Total_RNA_2017/Nicholls_20170906_Ribo-zero_gold/PWS_1_S4 
+../Nicholls_Total_RNA_2017/Nicholls_20170906_Ribo-zero_gold/PWS_2_S5 
+../Nicholls_Total_RNA_2017/Nicholls_20170906_Ribo-zero_gold/PWS_3_S6 
+
+
