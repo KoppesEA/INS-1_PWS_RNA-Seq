@@ -38,10 +38,15 @@ Splice-aware refrence-based alignment using STAR version 2.7.0e was implemented 
 Gene-level feature counts were made with HTseq version 0.11.2 using parameters specified in `HTSeq_Rnorcustom_v98.sh`.  
 *Note that the settings* `--mode union` *and* `--nonqunique all` *were required to accurately quantify the overlapping bicistronic Snurf-Snrpn transcript and the multicopy Snord115 and Snord116 genes.*  
 
-The DESeq2 R package was used for differential expression anlaysis as implemented in R script. Significance cutoffs of padj<0.10 lenient or padj<0.05 stringent were used in the identification of differentiall expressed genes to investigate further.
+The DESeq2 version 3.9 R package (R version 3.6) was used for differential expression anlaysis as implemented in R script `Deseq2_STARHTSeq_RScript.R`. Significance cutoffs of padj<0.10 lenient or padj<0.05 stringent were used in the identification of differentiall expressed genes to investigate further.
 
 ## Part III: Alternate identification of differentially expressed genes in total RNA using STAR alignment with RSEM and comparison with DEseq2
 
 ## Part IV: smallRNA-Seq differential expression using Bowtie2 alignment, HTseq and DEseq2
 
 ## Part V References and links to software used herein
+
+###DESeq2
+https://bioconductor.org/packages/DESeq2/
+https://git.bioconductor.org/packages/DESeq2
+Love MI, Huber W, Anders S (2014). “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.” Genome Biology, 15, 550. doi: 10.1186/s13059-014-0550-8.
