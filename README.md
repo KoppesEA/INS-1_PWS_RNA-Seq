@@ -7,7 +7,7 @@ and
 GSExxx  (small RNA)
 
 
-*Directories and version numbers may need to adjusted within each script by user to run as needed*
+*Directories and version numbers may need to be adjusted within each script by user to run as needed*
 
 ## Part I: Custom Genome Generation
 Download Rnor6 top level genome sequence and gene set annotation from Ensembl (https://useast.ensembl.org/info/data/ftp/index.html)  
