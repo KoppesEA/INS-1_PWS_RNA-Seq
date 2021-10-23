@@ -1,6 +1,13 @@
 # INS-1_PWS_PNAS
-Markdown on the useage of uploaded bash scripts for RNA-Seq analysis associated with Koppes et al. 2021 for analysis of total- and small- RNA-Seq of control and PWS INS-1 cells.
-*Directories and version numbers may need to adjusted to run as needed*
+Markdown on the useage of uploaded bash scripts for RNA-Seq analysis associated with Koppes et al. 2021 for analysis of total- and small- RNA-Seq of control and PWS INS-1 cells.  
+
+Fastq files associated with this study can be found via GEO  
+GSExxxx  (Total RNA)  
+and
+GSExxx  (small RNA)
+
+
+*Directories and version numbers may need to adjusted within each by user to run as needed*
 
 ## Part I: Custom Genome Generation
 Download Rnor6 top level genome sequence and gene set annotation from Ensembl (https://useast.ensembl.org/info/data/ftp/index.html)  
