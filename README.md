@@ -7,7 +7,7 @@ and
 GSExxx  (small RNA)
 
 
-*Directories and version numbers may need to adjusted within each by user to run as needed*
+*Directories and version numbers may need to adjusted within each script by user to run as needed*
 
 ## Part I: Custom Genome Generation
 Download Rnor6 top level genome sequence and gene set annotation from Ensembl (https://useast.ensembl.org/info/data/ftp/index.html)  
@@ -55,5 +55,4 @@ The DESeq2 version 3.9 R package (R version 3.6) was used for differential expre
 
 ### DESeq2
 https://bioconductor.org/packages/DESeq2/  
-https://git.bioconductor.org/packages/DESeq2  
 Love MI, Huber W, Anders S (2014). “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.” Genome Biology, 15, 550. doi: 10.1186/s13059-014-0550-8.  
