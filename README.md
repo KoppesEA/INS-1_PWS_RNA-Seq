@@ -33,7 +33,7 @@ Generate Bowtie2 indexes from Rnor6.0.99 (without custom annotation) using the `
 ## Part II: Identification of differentially expressed genes  in total RNA using STAR alignment with gene feature counts by HT-Seq and comparison with DEseq2
 RNA-seq QC check using `FastQC` version 0.11.5 and illumina NextSeq adapters trimmed using `TrimGalore` version 0.4.5 as specified in `Total_RNA_QCandTRIM.sh` with the sample list file `expList_2017.txt`  
 
-Splice-aware refrence-based alignment using STAR version 2.7.0e was implemented with options specified in
+Splice-aware refrence-based alignment using STAR version 2.7.0e was implemented with options specified in `STAR_RnorCustom_mapping.sh` combined with the custom annotation genomic indexes generated in Part I.
 
 
 
