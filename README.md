@@ -47,7 +47,8 @@ Starting with custom genome annotation and pre-processed reads from PartI and Pa
 
 A normalized matrix of gene-level and isoform-level read-counts for the 6 samples was then generated using `RSEM_RnorV98custom_genedatamatrix.sh`.  
 
-The read-count matrix was subsequently imported into R using `tximport` and differential expression quantified by `DESeq2` as written in the script `RSEM_RnorV98custom_Deseq2`.    
+The read-count matrix was subsequently imported into R using `tximport` and differential expression quantified by `DESeq2` as written in the script `RSEM_RnorV98custom_Deseq2`.  
+
 *A Significance cutoffs of padj<0.10 was used to compare with results from PartII*
 
 
