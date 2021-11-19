@@ -39,10 +39,15 @@ Gene-level feature counts were made with HTseq version 0.11.2 using parameters s
 *Note that the settings* `--mode union` *and* `--nonqunique all` *were required to accurately quantify the overlapping bicistronic Snurf-Snrpn transcript and the multicopy Snord115 and Snord116 genes.*  
 
 The DESeq2 version 3.9 R package (R version 3.6) was used for differential expression anlaysis as implemented in R script `Deseq2_STARHTSeq_RScript.R`.  
+
 *Significance cutoffs of padj<0.10 lenient or padj<0.05 stringent were used in the identification of differentially expressed genes to investigate further.*
 
 ## Part III: Alternate identification of differentially expressed genes in total RNA using STAR alignment with RSEM and comparison with DEseq2
-Starting with custom genome annotation and pre-processed reads from PartI and PartII. `RSEM` v.1.3.1 with `STAR` was used to perform both alignment and feature counts as implemented in `RSEM_RnorV98custom_calcexp`. A normalized matrix of gene-level and isoform-level read-counts for the 6 samples was then generated using `RSEM_RnorV98custom_genedatamatrix.sh`. The read-count matrix was subsequently imported into R using `tximport` and differential expression quantified by `DESeq2` as written in the script `RSEM_RnorV98custom_Deseq2`.  
+Starting with custom genome annotation and pre-processed reads from PartI and PartII. `RSEM` v.1.3.1 with `STAR` was used to perform both alignment and feature counts as implemented in `RSEM_RnorV98custom_calcexp`.  
+
+A normalized matrix of gene-level and isoform-level read-counts for the 6 samples was then generated using `RSEM_RnorV98custom_genedatamatrix.sh`.  
+
+The read-count matrix was subsequently imported into R using `tximport` and differential expression quantified by `DESeq2` as written in the script `RSEM_RnorV98custom_Deseq2`.    
 *A Significance cutoffs of padj<0.10 was used to compare with results from PartII*
 
 
