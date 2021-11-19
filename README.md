@@ -48,11 +48,26 @@ The DESeq2 version 3.9 R package (R version 3.6) was used for differential expre
 ## Part V References and links to software used herein
 
 ### STAR
+https://github.com/alexdobin/STAR
+https://pubmed.ncbi.nlm.nih.gov/23104886/
+A. Dobin, C.A. Davis, F. Schlesinger, J. Drenkow, C. Zaleski, S. Jha, P. Batut, M. Chaisson, T.R. Gingeras, STAR: ultrafast universal RNA-seq aligner, Bioinformatics 29(1) (2013) 15-21.
 
 ### HTSeq
+https://github.com/htseq/htseq
+https://htseq.readthedocs.io/en/master/
+https://pubmed.ncbi.nlm.nih.gov/25260700/
+Simon Anders, Paul Theodor Pyl, Wolfgang Huber. HTSeq — A Python framework to work with high-throughput sequencing data Bioinformatics (2014).
 
 ### RSEM
 
 ### DESeq2
+https://github.com/mikelove/DESeq2
 https://bioconductor.org/packages/DESeq2/  
+https://pubmed.ncbi.nlm.nih.gov/25516281/
 Love MI, Huber W, Anders S (2014). “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.” Genome Biology, 15, 550. doi: 10.1186/s13059-014-0550-8.  
+
+##Trimomatic
+https://github.com/timflutre/trimmomatic
+http://www.usadellab.org/cms/index.php?page=trimmomatic
+https://pubmed.ncbi.nlm.nih.gov/24695404/
+Bolger, A. M., Lohse, M., & Usadel, B. (2014). Trimmomatic: A flexible trimmer for Illumina Sequence Data. Bioinformatics.
