@@ -68,7 +68,9 @@ https://pubmed.ncbi.nlm.nih.gov/25260700/
 Simon Anders, Paul Theodor Pyl, Wolfgang Huber. HTSeq — A Python framework to work with high-throughput sequencing data Bioinformatics (2014).
 
 ### RSEM
-https://pubmed.ncbi.nlm.nih.gov/21816040/
+http://deweylab.github.io/RSEM/  
+https://pubmed.ncbi.nlm.nih.gov/21816040/  
+
 
 ### DESeq2
 https://github.com/mikelove/DESeq2  
