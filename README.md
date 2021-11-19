@@ -36,7 +36,7 @@ RNA-seq QC check using `FastQC` version 0.11.5 and illumina NextSeq adapters tri
 Splice-aware refrence-based alignment using STAR version 2.7.0e was implemented with options specified in `STAR_RnorCustom_mapping.sh` combined with the custom annotation genomic indexes generated in Part I.
 
 Gene-level feature counts were made with HTseq version 0.11.2 using parameters specified in `HTSeq_Rnorcustom_v98.sh`.  
-*Note that the settings* `--mode union` *and* `--nonqunique all` *were required to accurately quantify the overlapping bicistronic Snurf-Snrpn transcript and the multicopy Snord115 and Snord116 genes.*  
+*Note that the settings* `--mode union` *and* `--nonqunique all` *were required to accurately quantify the overlapping bicistronic Snurf-Snrpn transcript and the multicopy Snord115 and Snord116 genes of the PWS domain.*  
 
 The DESeq2 version 3.9 R package (R version 3.6) was used for differential expression anlaysis as implemented in R script `Deseq2_STARHTSeq_RScript.R`.  
 
@@ -49,7 +49,7 @@ A normalized matrix of gene-level and isoform-level read-counts for the 6 sample
 
 The read-count matrix was subsequently imported into R using `tximport` and differential expression quantified by `DESeq2` as written in the script `RSEM_RnorV98custom_Deseq2`.  
 
-*A Significance cutoffs of padj<0.10 was used to compare with results from PartII*
+*A Significance cutoff of padj<0.10 was used to compare with results from PartII*
 
 
 ## Part IV: smallRNA-Seq differential expression using Bowtie2 alignment, HTseq and DEseq2
@@ -68,6 +68,7 @@ https://pubmed.ncbi.nlm.nih.gov/25260700/
 Simon Anders, Paul Theodor Pyl, Wolfgang Huber. HTSeq — A Python framework to work with high-throughput sequencing data Bioinformatics (2014).
 
 ### RSEM
+https://pubmed.ncbi.nlm.nih.gov/21816040/
 
 ### DESeq2
 https://github.com/mikelove/DESeq2  
