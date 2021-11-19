@@ -48,8 +48,8 @@ The DESeq2 version 3.9 R package (R version 3.6) was used for differential expre
 ## Part V References and links to software used herein
 
 ### STAR
-https://github.com/alexdobin/STAR
-https://pubmed.ncbi.nlm.nih.gov/23104886/
+https://github.com/alexdobin/STAR  
+https://pubmed.ncbi.nlm.nih.gov/23104886/  
 A. Dobin, C.A. Davis, F. Schlesinger, J. Drenkow, C. Zaleski, S. Jha, P. Batut, M. Chaisson, T.R. Gingeras, STAR: ultrafast universal RNA-seq aligner, Bioinformatics 29(1) (2013) 15-21.
 
 ### HTSeq
