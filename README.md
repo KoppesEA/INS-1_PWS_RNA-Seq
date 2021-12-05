@@ -53,6 +53,17 @@ The read-count matrix was subsequently imported into R using `tximport` and diff
 
 
 ## Part IV: smallRNA-Seq differential expression using Bowtie2 alignment, HTseq and DEseq2
+A `Bowtie2` genome index was generated based on the Rnor6.0 Ensembl V99 toplevel DNA sequence using bash script `INS1smallRNA_Bowtie2_Build`.  
+
+Single end reads including Qiagen miRNA UMI and Illumina sequencing adapters were pre processed to extract UMI tags with `umi-tools` bash script  `INS1smallRNA_UMIextract.sh` followed by `cutadapt` to remove illumina sequencing adapters, filter quality and to size >18nt with script `INS1smallRNA_UMI_cutAdaptm18.sh`.  
+
+Processed reads were then aligned using `Bowtie2` implemented with the script `INS1smallRNA_Bowtie2_Algin_UMIcutAdaptm18.sh` with the output .sam files were sorted by position and converted to .bam and then indexed using using the `samtools sort` function and then the samtools `index function as implemented in `INS1smallRNA_SamtoBam.sh` and `INS1smallRNA_Samtoolsindex.sh`.  
+
+Aligned reads were then deduplicated using `UMI-tools` from the aligned reads with the script `INS1smallRNA_UMIm18dedup.sh`. Deduplicated reads were then used as the input for gene-level counts using HTSeq using the Ensembl v99 (non custom) GTF annotation file as implemented with the script `INS1smallRNA_HTSeq_UnionAllExon.sh` using the `--mode union` and `--nonunique all` ; notably as for the total-RNAseq the macrosatellite snoRNA-115 and snoRNA-116 expression was much lower when tested using `--nonunique none` than with `nonunique all` options as many of the multimapped expressed copies were discarded.  Last, differential smallRNA expression was anlayzed in DESeq2 with the following R script `INS1smallRNA_UMIm18_v99_exUnionNone_rscript.R` with a padj cutoff of P>0.10.
+
+
+
+
 
 ## Part V References and links to software used herein
 
@@ -83,3 +94,13 @@ https://github.com/timflutre/trimmomatic
 http://www.usadellab.org/cms/index.php?page=trimmomatic  
 https://pubmed.ncbi.nlm.nih.gov/24695404/  
 Bolger, A. M., Lohse, M., & Usadel, B. (2014). Trimmomatic: A flexible trimmer for Illumina Sequence Data. Bioinformatics.  
+
+### UMI-tools
+
+### Cutadapt
+
+
+### Samtools
+
+
+### Bowtie2
