@@ -11,7 +11,7 @@
 module load gcc/8.2.0
 module load bowtie2/2.3.4.2
  
-names=($(cat smallRNAexpList_2019))
+names=($(cat smallRNAexpList_2019.txt))
 echo ${names[${SLURM_ARRAY_TASK_ID}]}
 
 READ_BASE=${names[${SLURM_ARRAY_TASK_ID}]:53}
