@@ -1,0 +1,9 @@
+/bgfs/rnicholls/INS1_PWS_smallRNA/smallRNA_raw_fastq/INS1_line_5_9_plus_S1
+/bgfs/rnicholls/INS1_PWS_smallRNA/smallRNA_raw_fastq/INS1_line_2_S2
+/bgfs/rnicholls/INS1_PWS_smallRNA/smallRNA_raw_fastq/INS1_line_16_S3
+/bgfs/rnicholls/INS1_PWS_smallRNA/smallRNA_raw_fastq/INS1_line_3_S4
+/bgfs/rnicholls/INS1_PWS_smallRNA/smallRNA_raw_fastq/INS1_line_19_1_S5
+/bgfs/rnicholls/INS1_PWS_smallRNA/smallRNA_raw_fastq/INS1_line_19_4_S6
+      
+       
+
