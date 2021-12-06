@@ -8,7 +8,7 @@
 #SBATCH --mem=64g # Memory pool for all cores (see also --mem-per-cpu)
 #SBATCH --array=0-5
 
-names=($(cat smallRNAexpList_2019))
+names=($(cat smallRNAexpList_2019.txt))
 echo ${names[${SLURM_ARRAY_TASK_ID}]}
 
 READ_BASE=${names[${SLURM_ARRAY_TASK_ID}]:53}
