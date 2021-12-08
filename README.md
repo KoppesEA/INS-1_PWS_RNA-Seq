@@ -89,18 +89,23 @@ https://bioconductor.org/packages/DESeq2/
 https://pubmed.ncbi.nlm.nih.gov/25516281/  
 Love MI, Huber W, Anders S (2014). “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.” Genome Biology, 15, 550. doi: 10.1186/s13059-014-0550-8.    
 
-### Trimomatic
-https://github.com/timflutre/trimmomatic  
-http://www.usadellab.org/cms/index.php?page=trimmomatic  
-https://pubmed.ncbi.nlm.nih.gov/24695404/  
-Bolger, A. M., Lohse, M., & Usadel, B. (2014). Trimmomatic: A flexible trimmer for Illumina Sequence Data. Bioinformatics.  
+### Trimgalore
+https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/  
+
+### FastQC
+https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 
 ### UMI-tools
+https://github.com/CGATOxford/UMI-tools  
+https://umi-tools.readthedocs.io/en/latest/QUICK_START.html  
 
 ### Cutadapt
-
+https://cutadapt.readthedocs.io/en/stable/  
+https://pubmed.ncbi.nlm.nih.gov/28715235/  
 
 ### Samtools
-
+https://github.com/samtools/samtools  
 
 ### Bowtie2
+https://github.com/BenLangmead/bowtie2  
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3322381/  
