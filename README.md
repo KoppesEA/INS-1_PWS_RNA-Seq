@@ -1,4 +1,4 @@
-# INS-1_PWS_PNAS
+# INS-1_PWS_RNA-Seq
 Markdown on the useage of uploaded bash scripts for RNA-Seq analysis associated with Koppes et al. 2021 for analysis of total- and small- RNA-Seq of control and PWS INS-1 cells.  
 
 Fastq files associated with this study can be found via GEO SuperSeries GSE190337 and Experiment BioProject PRJNA786769  
