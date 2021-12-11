@@ -2,9 +2,9 @@
 Markdown on the useage of uploaded bash scripts for RNA-Seq analysis associated with Koppes et al. 2021 for analysis of total- and small- RNA-Seq of control and PWS INS-1 cells.  
 
 Fastq files associated with this study can be found via GEO SuperSeries GSE190337 and Experiment BioProject PRJNA786769  
-GSE190334  (Total RNA)  
+GSE190334  (total RNA-seq)  
 and  
-GSE190336  (small RNA)
+GSE190336  (small RNA-seq)
 
 
 *Directories and version numbers may need to be adjusted within each script by user to run as needed*
