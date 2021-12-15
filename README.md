@@ -98,6 +98,7 @@ https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 ### UMI-tools
 https://github.com/CGATOxford/UMI-tools  
 https://umi-tools.readthedocs.io/en/latest/QUICK_START.html  
+https://pubmed.ncbi.nlm.nih.gov/28100584/  
 
 ### Cutadapt
 https://cutadapt.readthedocs.io/en/stable/  
