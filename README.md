@@ -70,13 +70,11 @@ Aligned reads were then deduplicated using `UMI-tools` from the aligned reads wi
 ### STAR
 https://github.com/alexdobin/STAR  
 https://pubmed.ncbi.nlm.nih.gov/23104886/  
-A. Dobin, C.A. Davis, F. Schlesinger, J. Drenkow, C. Zaleski, S. Jha, P. Batut, M. Chaisson, T.R. Gingeras, STAR: ultrafast universal RNA-seq aligner, Bioinformatics 29(1) (2013) 15-21.
 
 ### HTSeq
 https://github.com/htseq/htseq  
 https://htseq.readthedocs.io/en/master/  
 https://pubmed.ncbi.nlm.nih.gov/25260700/  
-Simon Anders, Paul Theodor Pyl, Wolfgang Huber. HTSeq — A Python framework to work with high-throughput sequencing data Bioinformatics (2014).
 
 ### RSEM
 http://deweylab.github.io/RSEM/  
@@ -86,8 +84,7 @@ https://pubmed.ncbi.nlm.nih.gov/21816040/
 ### DESeq2
 https://github.com/mikelove/DESeq2  
 https://bioconductor.org/packages/DESeq2/  
-https://pubmed.ncbi.nlm.nih.gov/25516281/  
-Love MI, Huber W, Anders S (2014). “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.” Genome Biology, 15, 550. doi: 10.1186/s13059-014-0550-8.    
+https://pubmed.ncbi.nlm.nih.gov/25516281/      
 
 ### Trimgalore
 https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/  
@@ -102,7 +99,7 @@ https://pubmed.ncbi.nlm.nih.gov/28100584/
 
 ### Cutadapt
 https://cutadapt.readthedocs.io/en/stable/  
-https://pubmed.ncbi.nlm.nih.gov/28715235/  
+http://journal.embnet.org/index.php/embnetjournal/article/view/200  
 
 ### Samtools
 https://github.com/samtools/samtools  
