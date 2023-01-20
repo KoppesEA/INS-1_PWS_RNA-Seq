@@ -15,9 +15,9 @@ Download Rnor6 top level genome sequence and gene set annotation from Ensembl (h
     wget http://ftp.ensembl.org/pub/release-98/fasta/rattus_norvegicus/dna/Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa.gz
     wget http://ftp.ensembl.org/pub/release-98/gtf/rattus_norvegicus/Rattus_norvegicus.Rnor_6.0.98.gtf.gz
 
-Note that as of 10/21/2021 current genome and annotation is now Rnor_6.0.104  
+Note that as of 1/20/2023 the current genome and annotation is now mRatBN7.2.108.gtf.gz
 
-Unzip the genome fasta file and then append the custom transgne sequences from `mINS2tg.fa` and `hINStg.fa`
+Unzip the genome fasta file and then append the mIns2::mCherry-CP and hINS::neoR transgene sequences from `mINS2tg.fa` and `hINStg.fa`
 
      gunzip -c Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa.gz > Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa
      cat Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa hINStg.fa mINS2tg.fa > Rattus_norvegicus.Rnor_6.0.dna.custom.fa
@@ -33,7 +33,7 @@ Generate Bowtie2 indexes from Rnor6.0.99 (without custom annotation) using the `
 ## Part II: Identification of differentially expressed genes  in total RNA using STAR alignment with gene feature counts by HT-Seq and comparison with DEseq2
 RNA-seq QC check using `FastQC` version 0.11.5 and illumina NextSeq adapters trimmed using `TrimGalore` version 0.4.5 as specified in `Total_RNA_QCandTRIM.sh` with the sample list file `expList_2017.txt`  
 
-Splice-aware refrence-based alignment using STAR version 2.7.0e was implemented with options specified in `STAR_RnorCustom_mapping.sh` combined with the custom annotation genomic indexes generated in Part I.
+Splice-aware reference-based alignment using STAR version 2.7.0e was implemented with options specified in `STAR_RnorCustom_mapping.sh` combined with the custom annotation genomic indexes generated in Part I.
 
 Gene-level feature counts were made with HTseq version 0.11.2 using parameters specified in `HTSeq_Rnorcustom_v98.sh`.  
 *Note that the settings* `--mode union` *and* `--nonqunique all` *were required to accurately quantify the overlapping bicistronic Snurf-Snrpn transcript and the multicopy Snord115 and Snord116 genes of the PWS domain.*  
